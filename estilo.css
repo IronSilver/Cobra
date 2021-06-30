@@ -1,6 +1,6 @@
 body{
-	background-color: #4642B8;padding: 15px;font-family: Georgia;
-	background-color: #000; font-family: Algerian;
+	padding: 15px;font-family: Georgia;
+	background-color: #000; font-family: Algerian; 	box-sizing: border-box;
 }
 
 #menu {
@@ -32,8 +32,8 @@ body{
 }
 
 #cobra {
-	margin-top: 80px;
-	margin-bottom: 100px;
+	margin-top: 15%;
+	margin-bottom: 10%;
 	margin-left: 290px;
 	height: 400px;
 }
@@ -182,3 +182,9 @@ input:focus{
 
 }
 
+@media screen and (max-width: 600px) {
+
+	body{
+		background-color: blue;
+	}
+}
