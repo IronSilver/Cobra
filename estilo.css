@@ -187,4 +187,21 @@ input:focus{
 	body{
 		background-color: blue;
 	}
+
+	menu {
+	margin-right: 20%;
+	margin-left: 20%;
+	}
+
+	#cobra {
+	margin-top: 15%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	height: 400px;
+	}
+
+	.sensei {
+		width: 50%;
+	}
+
 }
